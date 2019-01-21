@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+  
+      <p>Thank you for beeing part of the project... Please select one topic</p> 
+    </div>
+    <p class="lead">
+        
+      </p>
+  </div>
+
+<div class="row">
+
+    <div class="col-md-4">
+        <h2>Holiday in the Mediterrean</h2>
+        <p>
+        Listen to the following discussion between two persons A and B deciding the next holiday destination for a week. They both would like to go to a Mediterranean island, but they are not sure about Malta or Creete."  
+        <p><a class="btn btn-default" href="{{ url_for('dialogs') }}">Learn more &raquo;</a></p>
+  
+    </div>
+    <div class="col-md-4">
+        <h2>Buying a car </h2>
+        <p>"A and B are discussing about which type of car to chose, either SUV or Minivan.</p>
+        <p><a class="btn btn-default" href="https://pypi.python.org/pypi">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Country and Quality of Life</h2>
+        <p>A and B are discussing if Scandinavia is the place with the highest quality of life.</p>
+        <p><a class="btn btn-default" href="http://azure.microsoft.com">Learn more &raquo;</a></p>
+    </div>
+</div>
+
+{% endblock %}
